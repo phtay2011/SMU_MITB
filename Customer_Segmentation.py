@@ -140,7 +140,7 @@ from sklearn.metrics import silhouette_score
 score=silhouette_score(X_Scaled, y_hc)
 print ('Silhouette score =',score)
 
-#Validating the model 
+#Validating the model
 
 ClusterSizes=np.arange(2,6)
 linkage=['ward','average','complete']
